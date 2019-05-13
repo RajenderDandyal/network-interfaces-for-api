@@ -23,3 +23,8 @@ say our instance ipv4/public ip is 135.2.6.123, and we want to run our app only 
 node app.js 135.2.6.123
 
 if we run node app.js 0.0.0.0, or node app.js null,... then our app will be available on every interfaces available to machine--public,private,local --- thats the default behaviour that we get.
+
+## usefull comands on linux/ubuntu
+ * ifconfig: tells all available network interface/host on machine. Usually 2, i.e public and local/loopback
+ * webstat: tells all available connection on interfaces ex, tcp tcp6, hdp, socket.
+ * webstat -tln: this is most usefull while debuging connection issues, it only tells connection with interface and port on tcp, tcp6, thats where our app usually lives.
