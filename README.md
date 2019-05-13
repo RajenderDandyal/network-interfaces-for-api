@@ -34,3 +34,6 @@ if we run node app.js 0.0.0.0, or node app.js null,... then our app will be avai
  * ipv6 is 128 bin no. 
  * so ipv6 allows us to address more devices, ex with IOT, digital world each device require its own public address, so ipv6 is good.
  * ipv6 syntax :::8081 === 0.0.0.0:8081 where our default app runs.. means available to all interfaces.
+ 
+ 
+ https://www.youtube.com/watch?v=PYTG7bvpvRI&list=PLQlWzK5tU-gDyxC1JTpyC2avvJlt3hrIh&index=8
