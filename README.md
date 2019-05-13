@@ -26,5 +26,5 @@ if we run node app.js 0.0.0.0, or node app.js null,... then our app will be avai
 
 ## usefull comands on linux/ubuntu
  * ifconfig: tells all available network interface/host on machine. Usually 2, i.e public and local/loopback
- * webstat: tells all available connection on interfaces ex, tcp tcp6, hdp, socket.
- * webstat -tln: this is most usefull while debuging connection issues, it only tells connection with interface and port on tcp, tcp6, thats where our app usually lives.
+ * netstat: tells all available connection on interfaces ex, tcp tcp6, hdp, socket.
+ * netstat -tln: this is most usefull while debuging connection issues, it only tells connection with interface and port on tcp, tcp6, thats where our app usually lives.
