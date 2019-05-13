@@ -28,3 +28,9 @@ if we run node app.js 0.0.0.0, or node app.js null,... then our app will be avai
  * ifconfig: tells all available network interface/host on machine. Usually 2, i.e public and local/loopback
  * netstat: tells all available connection on interfaces ex, tcp tcp6, hdp, socket.
  * netstat -tln: this is most usefull while debuging connection issues, it only tells connection with interface and port on tcp, tcp6, thats where our app usually lives.
+ 
+ ## ipv4/tcp vs ipv6/tcp6
+ * ipv4 is 22 bit no. [0-255].[0-255].[0-255].[0-255]
+ * ipv6 is 128 bin no. 
+ * so ipv6 allows us to address more devices, ex with IOT, digital world each device require its own public address, so ipv6 is good.
+ * ipv6 syntax :::8081 === 0.0.0.0:8081 where our default app runs.. means available to all interfaces.
